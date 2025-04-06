@@ -110,6 +110,108 @@
         padding: 0px 190px;
       }
      
+  /**content**/
+     
+     .overview-section {
+  padding: 0px 0;
+  background-color: #F5F1EA;
+}
+
+.overview-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.overview-text {
+  flex: 1;
+  padding: 0 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #DFB899; /* Amber Hush for left only */
+}
+
+.overview-text h2,
+.overview-text h6,
+.overview-text p {
+  padding-right: 40px;
+  color: #3E3A39;
+  text-align: left;
+}
+
+     .overview-text p{
+       padding-bottom: 75px;
+     }
+.overview-image {
+  flex: 1;
+}
+
+.overview-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.brand-section {
+  background-color: #90B4D3; /* Vyka Lume */
+  padding: 0px;
+}
+
+.brand-container {
+  display: flex;
+  align-items: stretch;
+}
+
+.brand-image {
+  flex: 1;
+}
+
+.brand-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.brand-text {
+  flex: 1;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #90B4D3;
+  text-align: center;
+}
+
+.brand-title {
+  font-family: "Bitter", serif;
+  font-size: 2.5em;
+  color: #F5F1EA;
+  margin-bottom: 20px;
+}
+
+.brand-text p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.2em;
+  color: #F5F1EA;
+  line-height: 1.8;
+}
+
+
+
+    
+     
+     
+     
+     /** Color blocks **/
+.bg-blueprint { background-color: #6A7E92; }
+.bg-amber-hush { background-color: #DFB899; }
+.bg-jakarta-dusk { background-color: #E3DBCC; }
+.bg-vyka-lume { background-color: #90B4D3; }
+.bg-clay { background-color: #A4978E; }
   </style>
   
   </head>
@@ -119,7 +221,7 @@
   <!--Menu Bar-->
       <div class="menu-bar">
         <a href="https://jj565656.github.io/RchavPortfolio-landing/"> 
-          <img src="RChav Logo New.png" alt="RChav full logomark in old ink"> </a>
+          <img src="RChav Logo New.png" alt="RChav full logomark in old ink"></a>
         <div class="nav-links">
         <h5><a href="https://jj565656.github.io/RchavPortfolio-about/">About</a></h5>
         <h5><a href="https://jj565656.github.io/RchavPortfolio-projects/">Projects</a></h5>
@@ -131,9 +233,43 @@
     <!--header-->
     
     <div class="header">
-      <h1>PR or ER </h1> 
-      <h6>A cinematic take on gym culture, where ambition gets loud and limits get blurry</h6>
+      <h1>R.Chav Rebranding</h1> 
+      <h6>Rebranded because I got tired of squinting at my own work and going, </h6>
+      <h6>“eh.”</h6>
     </div>
   
+    <!--content-->
+    
+    <section class="overview-section">
+  <div class="overview-container">
+    <div class="overview-text">
+      <h2>Overview</h2>
+      <h6>Creative | Strategic | Versatile | Detail-Oriented | Storytelling</h6>
+      <p>I am a designer who seamlessly blends traditional artistry with modern digital techniques. My portfolio showcases a diverse range of projects, from intricate hand-drawn illustrations to impactful rebranding initiatives. Each piece reflects a commitment to detail, creativity, and strategic thinking, aiming to craft visuals that resonate and tell compelling stories.</p>
+    </div>
+    <div class="overview-image">
+      <img src="COLOR.png" alt="Rchav color palette">
+    </div>
+  </div>
+</section>
+    
+    <section class="brand-section">
+  <div class="brand-container">
+    <div class="brand-image">
+      <img src="BITTER.png" alt="Bitter typography Left image">
+    </div>
+    <div class="brand-text">
+      <h4 class="brand-title">Brand Mission</h4>
+      <p>To fuse artistic expression with strategic design, creating visuals that are both aesthetically pleasing and purpose-driven, ensuring each project not only captures attention but also communicates effectively.</p>
+    </div>
+    <div class="brand-image">
+      <img src="SANS.png" alt="DM sans typography Right image">
+    </div>
+  </div>
+</section>
+
+
+
+    
   </body>
 </html>
